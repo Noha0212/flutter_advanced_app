@@ -55,6 +55,7 @@ dependencies:
   # For adapting screen and font size
   flutter_screenutil: ^5.9.3
   cupertino_icons: ^1.0.8
+  device_preview: ^1.2.0
   
 
 dev_dependencies:

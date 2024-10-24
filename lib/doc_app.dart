@@ -1,5 +1,6 @@
 import 'package:advanced_app/core/routing/routes.dart';
 import 'package:advanced_app/core/theming/colors.dart';
+import 'package:device_preview/device_preview.dart';
 import 'package:flutter/material.dart';
 
 import 'package:advanced_app/core/routing/app_router.dart';
@@ -24,6 +25,7 @@ class DocApp extends StatelessWidget {
           scaffoldBackgroundColor: Colors.white,
         ),
         debugShowCheckedModeBanner: false,
+        builder: DevicePreview.appBuilder,
         initialRoute: Routes.onBoardingScreen,
         onGenerateRoute: appRouter.generateRoute,
       ),
