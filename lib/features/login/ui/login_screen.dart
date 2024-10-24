@@ -7,7 +7,9 @@ class LoginScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return const Scaffold(
       body: Center(
-        child: Text('loginScreen'),
+        child: Text(
+          'loginScreen',
+        ),
       ),
     );
   }
